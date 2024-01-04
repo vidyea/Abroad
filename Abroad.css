@@ -1,0 +1,152 @@
+
+body{ font-family: sans-serif;
+background-image: url(https://images.unsplash.com/photo-1572201864162-0464c009bb87?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWJyb2FkfGVufDB8fDB8fHww);
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*Navbar*/
+.navbar{
+top: 0;
+left: 0;
+display: flex;
+width: 100%;
+justify-content: space-between;
+padding: 20px;
+color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links :hover{
+    color: black;
+}
+.navbar h1{
+    color: rgb(8, 235, 38);
+}
+
+.ctn{
+    padding: 5px 15px;
+    background: crimson;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.searchbar{
+    height: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar h1{
+    text-align: center;
+    color: white;
+}
+    .searchbar h4 {
+        text-align: center;
+        color: whitesmoke;
+}
+.search-nav{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    justify-content: space-evenly;
+    backdrop-filter: blur (20px);
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
+margin-left: 100px;
+}
+.search-input{
+    height: 40px;
+    width: 30%;
+    border: none;
+    box-shadow: 0 0 10px black;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.explore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(131, 160, 184);
+}
+.explore-box{
+    border: 1px solid transparent ;
+    height: 300px;
+    width: 20%;
+    padding: 20px 0px 10px 0px ;
+    box-shadow: 0 0 10px black;
+    background-color: whitesmoke;
+    margin: 20px 0 20px 0;
+    border-radius: 6px;
+}
+.explore-img{
+    height: 180px;
+    background-size: cover;
+    margin: 1rem 0 1rem 0;
+}
+.explore-content{
+    margin: 0 1rem 0 1rem;
+
+}
+.explore-content a{
+    text-decoration:none ;
+    color: black;
+}
+.explore-content a:hover{
+    color: red;
+}
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+h3{
+    color: snow;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+ul a:hover{
+    color:rgb(246, 24, 24) ;
+}
+.foot-logo{
+    justify-content: space-evenly;
+    height: 50px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.foot-logo a{
+    text-decoration: none;
+    color: red;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-logo a:hover{
+    color: blueviolet;
+}
